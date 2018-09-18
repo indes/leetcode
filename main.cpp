@@ -1,15 +1,15 @@
 #include <iostream>
 #include <vector>
-#include "RemoveDuplicates/RemoveDuplicates.h"
+#include "MaxProfit/MaxProfit.h"
 
 using namespace std;
 
 int main() {
 
-    vector<int> nums = {0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
-    RemoveDuplicates s;
+    vector<int> nums = {7, 1, 5, 3, 6, 4};
+    MaxProfit s;
 
-    cout << s.removeDuplicates(nums) << endl;
+    cout << s.maxProfit(nums) << endl;
 
     return 0;
 }

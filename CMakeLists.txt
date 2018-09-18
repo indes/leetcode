@@ -3,4 +3,4 @@ project(leetcode)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(leetcode main.cpp RemoveDuplicates/RemoveDuplicates.cpp RemoveDuplicates/RemoveDuplicates.h MaxProfit/MaxProfit.cpp MaxProfit/MaxProfit.h Rotate/Rotate.cpp Rotate/Rotate.h)
+add_executable(leetcode main.cpp RemoveDuplicates/RemoveDuplicates.cpp RemoveDuplicates/RemoveDuplicates.h MaxProfit/MaxProfit.cpp MaxProfit/MaxProfit.h Rotate/Rotate.cpp Rotate/Rotate.h ContainsDuplicate/ContainsDuplicate.cpp ContainsDuplicate/ContainsDuplicate.h)

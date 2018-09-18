@@ -1,15 +1,15 @@
 #include <iostream>
 #include <vector>
-#include "MaxProfit/MaxProfit.h"
+#include "ContainsDuplicate/ContainsDuplicate.h"
 
 using namespace std;
 
 int main() {
 
-    vector<int> nums = {7, 1, 5, 3, 6, 4};
-    MaxProfit s;
+    vector<int> nums = {1, 2, 3, 4};
+    ContainsDuplicate s;
 
-    cout << s.maxProfit(nums) << endl;
+    cout << s.containsDuplicate(nums) << endl;
 
     return 0;
 }

@@ -1,15 +1,15 @@
 #include <iostream>
 #include <vector>
-#include "ContainsDuplicate/ContainsDuplicate.h"
+#include "MoveZeroes/MoveZeroes.h"
 
 using namespace std;
 
 int main() {
 
-    vector<int> nums = {1, 2, 3, 4};
-    ContainsDuplicate s;
+    vector<int> nums = {0, 1, 0, 3, 12};
+    MoveZeroes s;
 
-    cout << s.containsDuplicate(nums) << endl;
+    s.moveZeroes(nums);
 
     return 0;
 }

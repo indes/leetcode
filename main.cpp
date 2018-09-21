@@ -1,16 +1,16 @@
 #include <iostream>
 #include <vector>
-#include "MoveZeroes/MoveZeroes.h"
+#include "PlusOne/PlusOne.h"
 
 using namespace std;
 
 int main() {
 
-    vector<int> nums = {0, 1, 0, 3, 12};
-    MoveZeroes s;
+    vector<int> nums = {9, 9};
+    PlusOne s;
 
-    s.moveZeroes(nums);
-
+//    s.moveZeroes(nums);
+    nums = s.plusOne(nums);
     return 0;
 }
 

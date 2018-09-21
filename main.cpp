@@ -1,16 +1,17 @@
 #include <iostream>
 #include <vector>
-#include "PlusOne/PlusOne.h"
+#include <list>
+#include "MaxProfit/MaxProfit.h"
 
 using namespace std;
 
 int main() {
 
-    vector<int> nums = {9, 9};
-    PlusOne s;
+    vector<int> nums = {1, 2, 3, 4};
+    MaxProfit s;
 
 //    s.moveZeroes(nums);
-    nums = s.plusOne(nums);
+    cout<<s.maxProfit(nums);
     return 0;
 }
 

@@ -1,17 +1,18 @@
 #include <iostream>
-#include <vector>
-#include <list>
-#include "MaxProfit/MaxProfit.h"
+#include "ReverseString/ReverseString.h"
 
 using namespace std;
 
 int main() {
 
-    vector<int> nums = {1, 2, 3, 4};
-    MaxProfit s;
+//    vector<int> nums1 = {4, 9, 5}, nums2 = {9, 4, 9, 8, 4};
+    string str = "abcd";
+    ReverseString s;
 
 //    s.moveZeroes(nums);
-    cout<<s.maxProfit(nums);
+    cout << s.reverseString(str) << endl;
+
+
     return 0;
 }
 

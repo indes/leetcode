@@ -13,10 +13,8 @@ using namespace std;
 class Reverse {
 public:
     int reverse(int x) {
-        string s(string (x));
-
-        cout << s[2] << endl;
-        return 999;
+        int positive = 1;
+        if (x < 0) positive = 0;
     }
 };
 

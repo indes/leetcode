@@ -1,18 +1,14 @@
-#include <iostream>
-#include "FirstUniqChar/FirstUniqChar.h"
+
+#include "Intersect/Intersect.h"
 
 using namespace std;
 
 int main() {
 
-//    vector<int> nums1 = {4, 9, 5}, nums2 = {9, 4, 9, 8, 4};
-//    string str = "abcd";
-    FirstUniqChar s;
-    string a = "leetcode";
-
-//    s.moveZeroes(nums);
-    cout << s.firstUniqChar(a) << endl;
-
+    std::vector<int> v1 = {4, 9, 5};
+    std::vector<int> v2 = {9, 4, 9, 8, 4};
+    Intersect solution;
+    vector<int> a = solution.intersect(v1, v2);
 
     return 0;
 }

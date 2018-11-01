@@ -6,7 +6,7 @@
 #define LEETCODE_ROTATE_H
 
 #include <vector>
-
+#include <algorithm>
 using std::vector;
 
 class Rotate {

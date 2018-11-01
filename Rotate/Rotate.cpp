@@ -4,10 +4,16 @@
 
 #include "Rotate.h"
 
+using namespace std;
+
 void Rotate::rotate(vector<vector<int>> &matrix) {
     int dimension = (*matrix.begin()).size();
-    vector<vector<int>> m(matrix);
-    for (int i = 0; i <= dimension; ++i) {
-        matrix[dimension - i][i] = m[i][dimension - i];
+
+    for (int i = 0; i < dimension; ++i) {
+        for (int j = i + 1; j < dimension; ++j) {
+            std::swap(matrix[j][i], matrix[i][j]);
+        }
+        reverse(matrix[i].begin(), matrix[i].end());
+
     }
 }

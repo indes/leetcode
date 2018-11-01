@@ -7,17 +7,15 @@
 
 #include <vector>
 #include <iostream>
+#include <set>
 
 using std::vector;
 
 class IsValidSudoku {
 public:
-    bool isValidSudoku(vector<vector<char>> &board) {
-        //line
-        for (auto const &i:board) {
-            std::cout << &i << std::endl;
-        }
-    }
+    bool isValidSudoku(vector<vector<char>> &board);
+
+    bool check(vector<char> chars);
 };
 
 

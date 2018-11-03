@@ -1,21 +1,14 @@
 
-#include "Rotate/Rotate.h"
+#include "RemoveElement/RemoveElement.h"
 
 using namespace std;
 
 int main() {
+    vector<int> v1 = {1, 2, 2, 3, 3};
+    RemoveElement solution;
+    int a = solution.removeElement(v1, 2);
 
-    std::vector<std::vector<int>> v = {
-            {5, 3, 1},
-            {6, 1, 1},
-            {1, 9, 8},
-    };
 
-    Rotate solution;
-    solution.rotate(v);
-//    vector<char> c = {5, 1, 1, 1, 7, 1, 1, 1, 7};
-//    char c[10] = {5, 1, 1, 1, 7, 1, 1, 1, 7};
-//    bool a = solution.rotate(c);
 
     return 0;
 }

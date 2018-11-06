@@ -1,11 +1,11 @@
 
-#include "pascals_triangle/pascals_triangle.h"
+#include "pascals_triangle2/pascals_triangle2.h"
 
 using namespace std;
 
 int main() {
-    pascals_triangle s;
-    s.generate(5);
+    pascals_triangle2 s;
+    s.getRow(3);
 
 
 

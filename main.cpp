@@ -1,12 +1,11 @@
 
-#include "RemoveElement/RemoveElement.h"
+#include "pascals_triangle/pascals_triangle.h"
 
 using namespace std;
 
 int main() {
-    vector<int> v1 = {1, 2, 2, 3, 3};
-    RemoveElement solution;
-    int a = solution.removeElement(v1, 2);
+    pascals_triangle s;
+    s.generate(5);
 
 
 

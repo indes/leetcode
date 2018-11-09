@@ -1,14 +1,14 @@
 
-#include "TwoSum/TwoSum.h"
+#include "3sum/threeSum.h"
 
 using namespace std;
 
 int main() {
-    TwoSum s;
-    vector<int> v1 = {4, 0, 0, 0, 0, 0}, v2 = {1, 2, 3, 5, 6};
+    ThreeSum s;
+    vector<int> v1 = {-1, 0, 1, 2, -1, -4}, v2 = {1, 2, 3, 5, 6};
 //    s.merge(v1, 1, v2, 5);
-    auto a = s.twoSum(v2, 7);
-
+//    auto a = s.twoSum(v2, 7);
+    s.treeSum(v1);
     return 0;
 }
 

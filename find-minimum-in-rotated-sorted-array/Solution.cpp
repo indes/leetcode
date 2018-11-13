@@ -22,13 +22,9 @@ int Solution::findMin(vector<int> &nums) {
         vector<int> v(nums.begin() + mid, nums.end());
         return findMin(v);
 
-    } else if (nums[mid] < *nums.begin()) {
+    } else {
         // 在左半边寻找
         vector<int> v(nums.begin(), nums.begin() + mid + 1);
-        return findMin(v);
-    } else {
-        // start == min
-        vector<int> v(nums.begin() + 1, nums.end());
         return findMin(v);
     }
 

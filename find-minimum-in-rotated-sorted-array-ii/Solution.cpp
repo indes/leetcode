@@ -16,7 +16,7 @@ int Solution::findMin(vector<int> &nums) {
     if (nums.size() == 1) return nums[0];
     if (nums.size() == 2) return min(nums[0], nums[1]);
 
-    vector<int>::size_type mid = (nums.end() - nums.begin()) / 2;
+    int mid = (nums.end() - nums.begin()) / 2;
     if (nums[mid] > *nums.begin()) {
         // 在右半边寻找
         vector<int> v(nums.begin() + mid, nums.end());

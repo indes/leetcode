@@ -1,17 +1,14 @@
 //
-// Created by Li on 2018/11/13.
+// Created by Li on 2018/11/15.
 //
 
 #ifndef LEETCODE_SOLUTION_H
 #define LEETCODE_SOLUTION_H
 
-#include <vector>
-
-using namespace std;
 
 class Solution {
 public:
-    int findMin(vector<int> &nums);
+    bool isPalindrome(int x);
 };
 
 

@@ -12,7 +12,7 @@ bool Solution::searchMatrix(vector<vector<int>> &matrix, int target) {
 
     for (; row_num < matrix.size(); ++row_num) {
 
-        if (matrix[row_num][0] < target && matrix[row_num][matrix[0].size() - 1]) {
+        if (matrix[row_num][0] <= target && target <= matrix[row_num][matrix[0].size() - 1]) {
             return find(matrix[row_num], target);
         }
     }
@@ -26,7 +26,13 @@ bool Solution::find(vector<int> v, int target) {
     int tail = v.size(), front = 0;
 
     int mid = tail / 2;
+    if (mid == 0) {
+        return v[mid] == target;
+    }
     while (mid != 0) {
+        if (mid == front) {
+            return v[mid] == target;
+        }
         if (v[mid] == target) return true;
         else if (v[mid] > target) {
             tail = mid;
@@ -34,6 +40,7 @@ bool Solution::find(vector<int> v, int target) {
         } else {
             front = mid;
             mid += (tail - mid) / 2;
+
         }
     }
     return false;

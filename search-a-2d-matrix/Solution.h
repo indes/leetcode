@@ -15,7 +15,7 @@ public:
 
 
 private:
-    bool find(vector<int> v, int target);
+    bool find_element(vector<int> v, int target);
 };
 
 

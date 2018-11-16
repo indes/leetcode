@@ -13,12 +13,12 @@ int main() {
     for (int i = 0; i < 3; ++i) {
 
     }
-    v.push_back({1});
-//    v.push_back({10, 11, 16, 20});
-//    v.push_back({23, 30, 34, 50});
+    v.push_back({1, 2, 3, 4});
+    v.push_back({10, 11, 16, 20});
+    v.push_back({23, 30, 34, 50});
 //    vector<int> v1({-5});
 //    v.push_back(v1);
-    bool is = s.searchMatrix(v, 1);
+    bool is = s.searchMatrix(v, 13);
     return 0;
 }
 

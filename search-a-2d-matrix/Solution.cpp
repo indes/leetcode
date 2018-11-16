@@ -13,34 +13,25 @@ bool Solution::searchMatrix(vector<vector<int>> &matrix, int target) {
     for (; row_num < matrix.size(); ++row_num) {
 
         if (matrix[row_num][0] <= target && target <= matrix[row_num][matrix[0].size() - 1]) {
-            return find(matrix[row_num], target);
+            return find_element(matrix[row_num], target);
         }
     }
 
     return false;
 }
 
-bool Solution::find(vector<int> v, int target) {
+bool Solution::find_element(vector<int> v, int target) {
     //二分查找
+    int front = 0, tail = v.size() - 1, mid = tail / 2;
 
-    int tail = v.size(), front = 0;
-
-    int mid = tail / 2;
-    if (mid == 0) {
-        return v[mid] == target;
-    }
-    while (mid != 0) {
-        if (mid == front) {
-            return v[mid] == target;
-        }
-        if (v[mid] == target) return true;
-        else if (v[mid] > target) {
-            tail = mid;
-            mid /= 2;
+    while (front <= tail) {
+        mid = front + (tail - front) / 2;
+        if (v[mid] > target) {
+            tail = mid - 1;
+        } else if (v[mid] < target) {
+            front = mid + 1;
         } else {
-            front = mid;
-            mid += (tail - mid) / 2;
-
+            return true;
         }
     }
     return false;

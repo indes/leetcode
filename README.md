@@ -1,1 +1,2 @@
-# 我的leetcode解题记录
+# Leetcode
+我的 Leetcode 解题集

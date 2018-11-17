@@ -6,12 +6,9 @@
 #define LEETCODE_SOLUTION_H
 
 #include "../ListNode.h"
-
-using namespace std;
-
 class Solution {
 public:
-    void deleteNode(ListNode *node);
+    ListNode* removeNthFromEnd(ListNode* head, int n);
 };
 
 

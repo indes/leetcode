@@ -6,10 +6,10 @@
 
 bool Solution::hasCycle(ListNode *head) {
 
-    if (head == NULL or head->next == NULL) return false;
+    if (head == nullptr or head->next == nullptr) return false;
     ListNode *p1 = head, *p2 = head;
 
-    while (p1->next != NULL and p1->next->next != NULL) {
+    while (p1->next != nullptr and p1->next->next != nullptr) {
         p1 = p1->next->next;
         p2 = p2->next;
         if (p2 == p1) return true;

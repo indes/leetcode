@@ -1,6 +1,6 @@
 
 //#include "remove-nth-node-from-end-of-list/Solution.h"
-#include "reverse-nodes-in-k-group/Solution.h"
+#include "swap-nodes-in-pairs/Solution.h"
 //using namespace std;
 
 int main() {
@@ -9,7 +9,7 @@ int main() {
 
 
 //    auto res = s.removeNthFromEnd(&n5, 2);
-    auto res = s.reverseKGroup(&n7, 2);
+    auto res = s.swapPairs(&n7);
     return 0;
 
 }

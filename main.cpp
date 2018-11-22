@@ -1,6 +1,6 @@
 
 //#include "remove-nth-node-from-end-of-list/Solution.h"
-#include "reverse-linked-list/Solution.h"
+#include "reverse-nodes-in-k-group/Solution.h"
 //using namespace std;
 
 int main() {
@@ -9,7 +9,7 @@ int main() {
 
 
 //    auto res = s.removeNthFromEnd(&n5, 2);
-    auto res = s.reverseList(&n7);
+    auto res = s.reverseKGroup(&n7, 2);
     return 0;
 
 }

@@ -1,15 +1,15 @@
 //
-// Created by Li on 2018/11/18.
+// Created by Li on 2018/11/22.
 //
 
 #ifndef LEETCODE_SOLUTION_H
 #define LEETCODE_SOLUTION_H
 
-#include "../ListNode.h"
+#include "../../ListNode.h"
 
 class Solution {
 public:
-    ListNode *deleteDuplicates(ListNode *head);
+    ListNode *reverseBetween(ListNode *head, int m, int n);
 };
 
 

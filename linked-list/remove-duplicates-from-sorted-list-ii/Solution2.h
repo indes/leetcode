@@ -5,7 +5,7 @@
 #ifndef LEETCODE_SOLUTION2_H
 #define LEETCODE_SOLUTION2_H
 
-#include "../ListNode.h"
+#include "../../ListNode.h"
 class Solution2 {
 public:
     ListNode* deleteDuplicates(ListNode* head);

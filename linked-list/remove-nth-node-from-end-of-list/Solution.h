@@ -5,7 +5,7 @@
 #ifndef LEETCODE_SOLUTION_H
 #define LEETCODE_SOLUTION_H
 
-#include "../ListNode.h"
+#include "../../ListNode.h"
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n);

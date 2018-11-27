@@ -1,5 +1,5 @@
 
-#include "dynamic-programming/climbing-stairs/Solution.h"
+#include "dynamic-programming/unique-paths/Solution.h"
 
 using namespace std;
 
@@ -9,7 +9,7 @@ int main() {
 
 
 //    auto res = s.removeNthFromEnd(&n5, 2);
-    auto res = s.climbStairs(44);
+    auto res = s.uniquePaths(3,4);
     return 0;
 
 }

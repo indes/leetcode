@@ -4,6 +4,7 @@
 
 #include "Solution.h"
 
+
 int Solution::firstBadVersion(int n) {
     long min = 1;
     long max = n;
@@ -17,4 +18,8 @@ int Solution::firstBadVersion(int n) {
     }
 
     return min;
+}
+
+bool isBadVersion(int version) {
+    return false;
 }

@@ -1,5 +1,5 @@
 
-#include "dynamic-programming/triangle/Solution.h"
+#include "dynamic-programming/unique-binary-search-trees/Solution.h"
 
 using namespace std;
 
@@ -14,7 +14,7 @@ int main() {
     v1.push_back(vector<int>{1, 6, 4, 7});
 
 //    auto res = s.removeNthFromEnd(&n5, 2);
-    auto res = s.minimumTotal(v1);
+    auto res = s.numTrees(4);
     return 0;
 
 }

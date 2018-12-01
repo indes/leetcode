@@ -5,6 +5,6 @@
 #include "Solution.h"
 
 int Solution::maxProduct(vector<int> &nums) {
-    
+
     return 0;
 }

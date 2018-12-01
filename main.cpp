@@ -1,5 +1,5 @@
 
-#include "dynamic-programming/unique-binary-search-trees/Solution.h"
+#include "dynamic-programming/house-robber/Solution.h"
 
 using namespace std;
 
@@ -13,8 +13,8 @@ int main() {
     v1.push_back(vector<int>{2, 1, 3});
     v1.push_back(vector<int>{1, 6, 4, 7});
 
-//    auto res = s.removeNthFromEnd(&n5, 2);
-    auto res = s.numTrees(4);
+    vector<int> v2{2, 1, 1, 2};
+    auto res = s.rob(v2);
     return 0;
 
 }

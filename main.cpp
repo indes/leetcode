@@ -13,7 +13,7 @@ int main() {
     v1.push_back(vector<int>{2, 1, 3});
     v1.push_back(vector<int>{1, 6, 4, 7});
 
-    vector<int> v2{1, 3, 1, 3, 100};
+    vector<int> v2{4,1,2,7,5,3,1};
     auto res = s.rob2(v2);
     return 0;
 

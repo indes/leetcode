@@ -1,5 +1,5 @@
 
-#include "dynamic-programming/house-robber-ii/Solution.h"
+#include "dynamic-programming/longest-continuous-increasing-subsequence/Solution.h"
 
 using namespace std;
 
@@ -13,8 +13,8 @@ int main() {
     v1.push_back(vector<int>{2, 1, 3});
     v1.push_back(vector<int>{1, 6, 4, 7});
 
-    vector<int> v2{4,1,2,7,5,3,1};
-    auto res = s.rob2(v2);
+    vector<int> v2{1,3,5,4,7};
+    auto res = s.findLengthOfLCIS(v2);
     return 0;
 
 }

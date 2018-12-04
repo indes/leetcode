@@ -1,7 +1,9 @@
 
-#include "greedy/candy/Solution.h"
+#include "math/sum-of-square-numbers/Solution.h"
 
 using namespace std;
+
+#include <vector>
 
 int main() {
     Solution s;
@@ -13,8 +15,8 @@ int main() {
     v1.push_back(vector<int>{2, 1, 3});
     v1.push_back(vector<int>{1, 6, 4, 7});
 
-    vector<int> v2{1,3,4,5,2};
-    auto res = s.candy(v2);
+    vector<int> v2{1, 3, 4, 5, 2};
+    auto res = s.judgeSquareSum(5);
     return 0;
 
 }

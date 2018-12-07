@@ -1,5 +1,5 @@
 
-#include "tree/binary-tree-level-order-traversal-ii/Solution.h"
+#include "tree/binary-tree-zigzag-level-order-traversal/Solution.h"
 
 using namespace std;
 
@@ -12,7 +12,11 @@ int main() {
     TreeNode n1 = {1, nullptr, nullptr};
     TreeNode n2 = {2, nullptr, nullptr};
     TreeNode n3 = {3, &n1, &n2};
-    auto res = s.levelOrderBottom(&n3);
+    TreeNode n4 = {4, nullptr, nullptr};
+    TreeNode n5 = {5, &n3, &n4};
+
+
+    auto res = s.zigzagLevelOrder(&n5);
     return 0;
 
 }

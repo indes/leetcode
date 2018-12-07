@@ -1,5 +1,5 @@
 
-#include "tree/binary-tree-level-order-traversal/Solution.h"
+#include "tree/binary-tree-level-order-traversal-ii/Solution.h"
 
 using namespace std;
 
@@ -12,7 +12,7 @@ int main() {
     TreeNode n1 = {1, nullptr, nullptr};
     TreeNode n2 = {2, nullptr, nullptr};
     TreeNode n3 = {3, &n1, &n2};
-    auto res = s.levelOrder(&n3);
+    auto res = s.levelOrderBottom(&n3);
     return 0;
 
 }

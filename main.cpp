@@ -1,5 +1,5 @@
 
-#include "tree/binary-tree-zigzag-level-order-traversal/Solution.h"
+#include "tree/symmetric-tree/Solution.h"
 
 using namespace std;
 
@@ -16,7 +16,7 @@ int main() {
     TreeNode n5 = {5, &n3, &n4};
 
 
-    auto res = s.zigzagLevelOrder(&n5);
+    auto res = s.isSymmetric(&n1);
     return 0;
 
 }

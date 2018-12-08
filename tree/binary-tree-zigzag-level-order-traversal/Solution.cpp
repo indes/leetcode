@@ -19,7 +19,7 @@ vector<vector<int>> Solution::zigzagLevelOrder(TreeNode *root) {
             status = node.second;
             v.push_back(vector<int>());
         }
-        if (status % 2 == 0)
+        if (status % 2 == 0){
             v.back().push_back(node.first->val);
 
         } else {

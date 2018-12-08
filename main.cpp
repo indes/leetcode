@@ -9,14 +9,14 @@ int main() {
 //    vector<string> v{"ale", "apple", "monkey", "plea"};
 
 
-    TreeNode n1 = {1, nullptr, nullptr};
-    TreeNode n2 = {2, nullptr, nullptr};
-    TreeNode n3 = {3, &n1, &n2};
-    TreeNode n4 = {4, nullptr, nullptr};
-    TreeNode n5 = {5, &n3, &n4};
+    TreeNode n1 = {3, nullptr, nullptr};
+    TreeNode n2 = {3, nullptr, nullptr};
+    TreeNode n3 = {2, nullptr, &n2};
+    TreeNode n4 = {2, nullptr, &n1};
+    TreeNode n5 = {1, &n3, &n4};
 
 
-    auto res = s.isSymmetric(&n1);
+    auto res = s.isSymmetric(&n5);
     return 0;
 
 }

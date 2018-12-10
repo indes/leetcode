@@ -1,5 +1,5 @@
 
-#include "tree/binary-tree-preorder-traversal/Solution.h"
+#include "tree/binary-tree-inorder-traversal/Solution.h"
 
 using namespace std;
 
@@ -18,7 +18,7 @@ int main() {
     TreeNode n6 = {3, &n5, &n4};
 
 
-    auto res = s.preorderTraversal(&n3);
+    auto res = s.inorderTraversal(&n3);
     return 0;
 
 }

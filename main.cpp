@@ -1,5 +1,5 @@
 
-#include "tree/binary-tree-inorder-traversal/Solution.h"
+#include "tree/populating-next-right-pointers-in-each-node/Solution.h"
 
 using namespace std;
 
@@ -9,16 +9,16 @@ int main() {
 //    vector<string> v{"ale", "apple", "monkey", "plea"};
 
 
-    TreeNode n1 = {1, nullptr, nullptr};
-    TreeNode n2 = {2, nullptr, nullptr};
-    TreeNode n3 = {3, &n1, &n2};
+    TreeLinkNode n1 = {1, nullptr, nullptr, nullptr};
+    TreeLinkNode n2 = {2, nullptr, nullptr, nullptr};
+    TreeLinkNode n3 = {3, &n1, &n2, nullptr};
 
-    TreeNode n4 = {1, nullptr, nullptr};
-    TreeNode n5 = {1, nullptr, nullptr};
-    TreeNode n6 = {3, &n5, &n4};
+//    TreeNode n4 = {1, nullptr, nullptr};
+//    TreeNode n5 = {1, nullptr, nullptr};
+//    TreeNode n6 = {3, &n5, &n4};
 
 
-    auto res = s.inorderTraversal(&n3);
+    s.connect(&n3);
     return 0;
 
 }

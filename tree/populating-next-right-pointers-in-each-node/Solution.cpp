@@ -5,27 +5,26 @@
 #include "Solution.h"
 
 void Solution::connect(TreeLinkNode *root) {
-    if(root==nullptr)
+    if (root == nullptr)
         return;
-//    int height = 0;
-//    TreeLinkNode *node = root;
-    queue<pair<TreeLinkNode *, int>> q;
-    q.push(pair<TreeLinkNode *, int>(root, 0));
-    while (!q.empty()) {
-        TreeLinkNode *n = q.front().first;
-        int height = q.front().second;
-        q.pop();
-        if (!q.empty() and height == q.front().second) {
-            n->next = q.front().first;
 
-        } else {
-            n->next = nullptr;
+    TreeLinkNode *first = root;
+
+    while (first) {
+        if (first->left) first->left->next = first->right;
+        TreeLinkNode *second = first, *third = second->next;
+
+        while (third) {
+            if (third->left) {
+                third->left->next = third->right;
+            }
+            if (second->right)second->right->next = third->left;
+            second = second->next;
+            third = second->next;
         }
+        if (second->right) second->right->next = nullptr;
 
-
-        if (n->left) q.push(pair<TreeLinkNode *, int>(n->left, height + 1));
-        if (n->right) q.push(pair<TreeLinkNode *, int>(n->right, height + 1));
-
+        first = first->left;
     }
 
 }

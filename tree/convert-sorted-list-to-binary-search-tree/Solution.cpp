@@ -6,37 +6,22 @@
 
 TreeNode *Solution::sortedListToBST(ListNode *head) {
     if (head == nullptr) return nullptr;
-    TreeNode *n = new TreeNode({0, nullptr, nullptr});
-    ListNode *slow = head, *fast = head, *prev = head;
-    while (fast->next and fast->next->next) {
-        fast = fast->next->next;
-        prev = slow;
-        slow = slow->next;
-    }
 
-    n->val = slow->val;
-    prev->next = nullptr;
-    if (head->next == nullptr) {
-        n->left = new TreeNode({head->val, nullptr, nullptr});
-    } else {
-        n->left = sortedListToBST(head);
 
-    }
-    if (slow->next == nullptr) {
-        n->right = nullptr;
-    } else if (slow->next->next == nullptr) {
-        n->right = new TreeNode({slow->next->val, nullptr, nullptr});
-
-    } else {
-        n->right = sortedListToBST(slow->next);
-    }
-
-    slow->next = nullptr;
-
-    return n;
+    return getTree(head, nullptr);
 }
 
 TreeNode *Solution::getTree(ListNode *head, ListNode *tail) {
+    if (head == tail) return nullptr;
+    ListNode *fast = head, *slow = head;
+    while (fast != tail and fast->next != tail) {
+        fast = fast->next->next;
+        slow = slow->next;
+    }
+    auto *n = new TreeNode();
+    n->val = slow->val;
+    n->left = getTree(head, slow);
+    n->right = getTree(slow->next, tail);
 
-    return nullptr;
+    return n;
 }

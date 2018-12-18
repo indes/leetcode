@@ -6,7 +6,7 @@
 #define LEETCODE_SOLUTION_H
 
 
-#include "../../tree/TreeNode.h";
+#include "../../tree/TreeNode.h"
 #include <vector>
 
 using namespace std;

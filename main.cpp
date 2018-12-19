@@ -1,5 +1,5 @@
 
-#include "tree/binary-tree-postorder-traversal/Solution.h"
+#include "tree/flatten-binary-tree-to-linked-list/Solution.h"
 
 using namespace std;
 
@@ -21,7 +21,7 @@ int main() {
 //
 
 
-    auto k = s.postorderTraversal(&n3);
+    s.flatten(&n3);
     return 0;
 
 }

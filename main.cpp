@@ -1,11 +1,11 @@
 
-#include "stack-and-queue/implement-stack-using-queues/MyStack.h"
+#include "bit-manipulation/number-of-1-bits/Solution.h"
 
 using namespace std;
 
 int main() {
 
-    MyStack s;
+    Solution s;
 //    Solution s;
 //    ListNode n1{1, nullptr}, n2{2, &n1}, n3{3, &n2}, n4{4, &n3};
 //    vector<int> v{-10, -3, 0, 5, 9};
@@ -22,19 +22,8 @@ int main() {
 //    TreeLinkNode n3 = {3, &n1, &n2, nullptr};
 //
 
-
-    s.push(1);
-    s.push(2);
-
-    s.push(3);
-
-    s.push(4);
-    int b = s.top();
-    b = s.pop();
-    b = s.pop();
-    b = s.pop();
-    s.push(5);
-    b = s.pop();
+    uint32_t a = 13;
+    int k = s.hammingWeight(a);
 
     return 0;
 

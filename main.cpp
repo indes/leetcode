@@ -1,5 +1,5 @@
 
-#include "bit-manipulation/number-of-1-bits/Solution.h"
+#include "math/powx-n/Solution.h"
 
 using namespace std;
 
@@ -22,8 +22,8 @@ int main() {
 //    TreeLinkNode n3 = {3, &n1, &n2, nullptr};
 //
 
-    uint32_t a = 13;
-    int k = s.hammingWeight(a);
+//    uint32_t a = 13;
+    auto k = s.myPow(2, -2147483647);
 
     return 0;
 

@@ -1,5 +1,5 @@
 
-#include "math/powx-n/Solution.h"
+#include "coding-interview/038-StringPermutation/Solution.h"
 
 using namespace std;
 
@@ -23,8 +23,8 @@ int main() {
 //
 
 //    uint32_t a = 13;
-    auto k = s.myPow(2, -2147483647);
-
+//    auto k = s.myPow(2, -2147483647);
+    s.Permutation("abcdefg");
     return 0;
 
 }

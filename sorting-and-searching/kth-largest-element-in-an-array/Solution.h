@@ -6,10 +6,13 @@
 #define LEETCODE_SOLUTION_H
 
 #include <vector>
+#include <algorithm>
+
 using namespace std;
+
 class Solution {
 public:
-    int findKthLargest(vector<int>& nums, int k);
+    int findKthLargest(vector<int> &nums, int k);
 
 private:
     void sort(vector<int> &nums);

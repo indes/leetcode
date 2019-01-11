@@ -6,11 +6,12 @@
 
 int Solution::findKthLargest(vector<int> &nums, int k) {
 
-
-    return 0;
+    sort(nums);
+    return nums[nums.size() - k];
 }
 
 void Solution::sort(vector<int> &nums) {
 
-
+    make_heap(nums.begin(), nums.end());
+    sort_heap(nums.begin(), nums.end());
 }

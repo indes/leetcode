@@ -1,5 +1,5 @@
 
-#include "sorting-and-searching/bubble_sort/BubbleSort.h"
+#include "sorting-and-searching/select_sort/SelectSort.h"
 
 using namespace std;
 
@@ -7,9 +7,9 @@ using namespace std;
 
 int main() {
 
-    BubbleSort b;
+    SelectSort b;
     vector<int> v{3, 1, 5, 6, 2, 4, 6, 7, 8, 2, 9};
-    b.sort(&v);
+    b.sort(v);
     for (auto i:v) {
         std::cout << i << " ";
     }

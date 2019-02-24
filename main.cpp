@@ -1,15 +1,18 @@
 
-#include "sorting-and-searching/kth-largest-element-in-an-array/Solution.h"
+#include "sorting-and-searching/bubble_sort/BubbleSort.h"
 
 using namespace std;
 
+#include <iostream>
+
 int main() {
 
-    Solution s;
-    vector<int> k = {2, 3, 4, 1, 5};
-    auto r = s.findKthLargest(k, 2);
-    return 0;
-
+    BubbleSort b;
+    vector<int> v{3, 1, 5, 6, 2, 4, 6, 7, 8, 2, 9};
+    b.sort(&v);
+    for (auto i:v) {
+        std::cout << i << " ";
+    }
 }
 
 

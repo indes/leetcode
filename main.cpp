@@ -1,5 +1,5 @@
 
-#include "sorting-and-searching/quick_sort/QuickSort.h"
+#include "sorting-and-searching/shell_sort/ShellSort.h"
 
 using namespace std;
 
@@ -7,7 +7,7 @@ using namespace std;
 
 int main() {
 
-    QuickSort b;
+    ShellSort b;
     vector<int> v1{3, 1, 5, 6, 4, 7, 8, 2, 9};
     b.sort(v1);
     for (auto i:v1) {

@@ -1,0 +1,709 @@
+[33mcommit e25e3c097faac1da764c29968bd0ef3c2a447078[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: indes <wl@live.it>
+Date:   Tue Feb 26 09:44:18 2019 +0800
+
+    :sparkles: Pass shell_sort
+
+[33mcommit b2631363fae0a3b965712ae019c575f6b4ed2c90[m
+Author: indes <wl@live.it>
+Date:   Mon Feb 25 09:59:25 2019 +0800
+
+    :sparkles: Pass quick_sort
+
+[33mcommit 1e5dac79a8124d58478b05493d795ba53c02dae3[m
+Author: indes <wl@live.it>
+Date:   Sun Feb 24 21:32:25 2019 +0800
+
+    :sparkles: Pass insertion_sort
+
+[33mcommit 1579db8279b442f56d575b712a6cd3f1fa2d827f[m
+Author: indes <wl@live.it>
+Date:   Sun Feb 24 20:49:07 2019 +0800
+
+    :sparkles: Pass select_sort
+
+[33mcommit 2832d729eea1d61feeec636dcaf96d22e6c56df2[m
+Author: indes <wl@live.it>
+Date:   Sun Feb 24 20:26:32 2019 +0800
+
+    pass bubble_sort
+
+[33mcommit 5c3cc910106d5ac5db0dfbaca6ce7c1cbadafd93[m
+Author: indes <wl@live.it>
+Date:   Fri Jan 11 15:18:30 2019 +0800
+
+    :sparkles: Pass kth-largest-element-in-an-array
+
+[33mcommit c571cadffd402fd7bb7c546562987987487ea899[m
+Author: indes <wl@live.it>
+Date:   Thu Dec 27 21:40:43 2018 +0800
+
+    :sparkles: Done 038-StringPermutation
+
+[33mcommit af04a645c6ededcffc3b3c43f291744e1e187134[m
+Author: indes <wl@live.it>
+Date:   Sat Dec 22 21:58:15 2018 +0800
+
+    :sparkles: Pass powx-n
+
+[33mcommit f7bb263cb5ca5c4956f5fc12ce400b7819f8bb76[m
+Author: indes <wl@live.it>
+Date:   Thu Dec 20 11:27:41 2018 +0800
+
+    :sparkles: Pass number-of-1-bits
+
+[33mcommit feeb6907f6a6697dea1a5701dad8d377ad512c51[m
+Author: indes <wl@live.it>
+Date:   Wed Dec 19 22:23:27 2018 +0800
+
+    :sparkles: Pass implement-queue-using-stacks
+
+[33mcommit 1db4360d24add23b64182c3ce774fa2d58fd3d66[m
+Author: indes <wl@live.it>
+Date:   Wed Dec 19 22:14:17 2018 +0800
+
+    :sparkles: Pass implement-stack-using-queues
+
+[33mcommit 5ab8713cb0c9eb348c394317c067fc1e1c63ec16[m
+Author: indes <wl@live.it>
+Date:   Wed Dec 19 21:25:59 2018 +0800
+
+    :sparkles: Pass validate-binary-search-tree
+
+[33mcommit 206f85e80b996ac3154927fbe7b0235a4b3d7011[m
+Author: indes <wl@live.it>
+Date:   Wed Dec 19 10:32:23 2018 +0800
+
+    :sparkles: Pass flatten-binary-tree-to-linked-list
+
+[33mcommit 437b6ddba04be0dc27eef7814b9091edb3414c0a[m
+Author: indes <wl@live.it>
+Date:   Tue Dec 18 11:25:11 2018 +0800
+
+    :sparkles: Pass binary-tree-postorder-traversal
+
+[33mcommit 2ff781035ddbe2d5ca08d8b92337251535b7984d[m
+Author: indes <wl@live.it>
+Date:   Tue Dec 18 11:07:40 2018 +0800
+
+    :bug: Fix unique-binary-search-trees-ii
+
+[33mcommit 38cc5d394952d40871e884ec51b6b91ad05eac33[m
+Author: indes <wl@live.it>
+Date:   Tue Dec 18 10:56:05 2018 +0800
+
+    :sparkles: Pass path-sum-ii
+
+[33mcommit e2d51d780e788590f1034bcb8ea71310b5fda337[m[33m ([m[1;31mbit/master[m[33m)[m
+Author: indes <wl@live.it>
+Date:   Thu Dec 13 11:27:36 2018 +0800
+
+    :sparkles: Pass convert-sorted-array-to-binary-search-tree
+
+[33mcommit 868ad3c06b566bcfd43027dc7ef662f883cf6ea6[m
+Author: indes <wl@live.it>
+Date:   Thu Dec 13 11:12:49 2018 +0800
+
+    :sparkles: Pass convert-sorted-list-to-binary-search-tree
+
+[33mcommit 8a31bc7246326a241d8b551414cba0ac5d0be805[m
+Author: indes <wl@live.it>
+Date:   Thu Dec 13 11:05:56 2018 +0800
+
+    :hankey: War convert-sorted-list-to-binary-search-tree
+
+[33mcommit 718e80197931ac27c1624e8d1efc13c5d47b3832[m
+Author: indes <wl@live.it>
+Date:   Wed Dec 12 15:14:05 2018 +0800
+
+    :sparkles: Pass populating-next-right-pointers-in-each-node-ii
+
+[33mcommit 2b3b5efcb73ba933d52c9407c54821a90f864cf4[m
+Author: indes <wl@live.it>
+Date:   Wed Dec 12 10:23:27 2018 +0800
+
+    :zap: Optimize populating-next-right-pointers-in-each-node
+
+[33mcommit 4bdd5ac7e0cc05b98e67c5011ebd86ae6678f0f7[m
+Author: indes <wl@live.it>
+Date:   Tue Dec 11 11:27:49 2018 +0800
+
+    :sparkles: Pass populating-next-right-pointers-in-each-node
+
+[33mcommit a05dbd74bfd9ae4f1e6bc98823e170da3ec0bdd2[m
+Author: indes <wl@live.it>
+Date:   Mon Dec 10 11:03:07 2018 +0800
+
+    :sparkles: Pass binary-tree-inorder-traversal
+
+[33mcommit 4d2f0d5cfa0be2fad82986e7aba3f90cfb769916[m
+Author: indes <wl@live.it>
+Date:   Mon Dec 10 10:06:33 2018 +0800
+
+    :sparkles: Pass binary-tree-preorder-traversal
+
+[33mcommit 0d1bb9736119df714d5ef3b83353bbb130a1b7e0[m
+Author: indes <wl@live.it>
+Date:   Sun Dec 9 11:16:56 2018 +0800
+
+    :sparkles: Pass path-sum
+
+[33mcommit 868b1079d22e269fc136f5783e221e8fbcfb5e96[m
+Author: indes <wl@live.it>
+Date:   Sun Dec 9 10:57:10 2018 +0800
+
+    :sparkles: Pass balanced-binary-tree
+
+[33mcommit 28c8ca35276c3c013cd6a0ad6332a70cad0ac275[m
+Author: indes <wl@live.it>
+Date:   Sat Dec 8 15:36:43 2018 +0800
+
+    :sparkles: Pass same-tree
+
+[33mcommit 770d0d2d2047f2dae4dc784bdef12e4226f9d798[m
+Author: indes <wl@live.it>
+Date:   Sat Dec 8 10:53:34 2018 +0800
+
+    :sparkles: Pass symmetric-tree
+
+[33mcommit 8a2c2c0ade2f1323afa08d1f3d77ce4709bedd6a[m
+Author: indes <wl@live.it>
+Date:   Sat Dec 8 10:38:43 2018 +0800
+
+    :bug: Fix binary-tree-zigzag-level-order-traversal
+
+[33mcommit 9b7d76bffb863409450ac7574ea35c4977c2c10c[m
+Author: indes <wl@live.it>
+Date:   Fri Dec 7 14:15:57 2018 +0800
+
+    :sparkles: Pass binary-tree-zigzag-level-order-traversal
+
+[33mcommit 8eed65f9645f8940452ab2887c4b666b31e997b9[m
+Author: indes <wl@live.it>
+Date:   Fri Dec 7 10:53:29 2018 +0800
+
+    :sparkles: Pass binary-tree-level-order-traversal-ii
+
+[33mcommit 31318c5c76a001998f0f82f9ee9cf975ccdfa3c4[m
+Author: indes <wl@live.it>
+Date:   Fri Dec 7 10:45:19 2018 +0800
+
+    :sparkles: Pass binary-tree-level-order-traversal
+
+[33mcommit 987c358db7e70693ba3908b6f0de9446350752a7[m
+Author: indes <wl@live.it>
+Date:   Thu Dec 6 21:29:49 2018 +0800
+
+    :sparkles: Pass minimum-depth-of-binary-tree
+
+[33mcommit c9b7ca54bd8ad2658e276079922b49eee9b198ad[m
+Author: indes <wl@live.it>
+Date:   Wed Dec 5 11:07:09 2018 +0800
+
+    :sparkles: Pass longest-word-in-dictionary-through-deleting
+
+[33mcommit f6d55587a4aed9b948717ac2d4634c3fb406c933[m
+Author: indes <wl@live.it>
+Date:   Wed Dec 5 10:07:19 2018 +0800
+
+    :sparkles: Pass valid-palindrome-ii
+
+[33mcommit d90f973709a190bf1161af14c688f9dc544909a2[m
+Author: indes <wl@live.it>
+Date:   Tue Dec 4 18:56:09 2018 +0800
+
+    :sparkles: Pass reverse-vowels-of-a-string
+
+[33mcommit 3ceeb86270d2f1b4d02df57da73ae0394bfdd02c[m
+Author: indes <wl@live.it>
+Date:   Tue Dec 4 18:39:43 2018 +0800
+
+    :sparkles: Pass sum-of-square-numbers
+
+[33mcommit 420824a036fea37fb6ec1766df26a8b79492b8f6[m
+Author: indes <wl@live.it>
+Date:   Tue Dec 4 10:09:27 2018 +0800
+
+    :sparkles: Pass candy
+
+[33mcommit 6de8a96cae624cbfc98ea8c4c9f355534e09589f[m
+Merge: 98a6762 e84c1df
+Author: indes <wl@live.it>
+Date:   Mon Dec 3 20:04:42 2018 +0800
+
+    Merge branch 'master' of github.com:indes/leetcode
+
+[33mcommit 98a6762e7de6d4c49012f512989b93d10223eb7f[m
+Author: indes <wl@live.it>
+Date:   Mon Dec 3 19:59:52 2018 +0800
+
+    :sparkles: Pass gas-station
+
+[33mcommit e84c1df5e6fd002dd52f1da7761dfc6c2e297f58[m
+Author: indes <wl@live.it>
+Date:   Mon Dec 3 19:59:52 2018 +0800
+
+    :hankey: Pass gas-station
+
+[33mcommit 72b8016bf8ebc0d9073379f232e0aebd03bb41dd[m
+Author: indes <wl@live.it>
+Date:   Mon Dec 3 19:39:00 2018 +0800
+
+    :hankey: War jump-game-ii
+
+[33mcommit 2d00464fc9324af169d936ebd33dfd41153c3a1e[m
+Author: indes <wl@live.it>
+Date:   Mon Dec 3 19:05:37 2018 +0800
+
+    :sparkles: Pass jump-game
+
+[33mcommit 270cac2cba1855a1b21a0850ce1d5401e77b4f17[m
+Author: indes <wl@live.it>
+Date:   Mon Dec 3 17:13:42 2018 +0800
+
+    :sparkles: Pass longest-continuous-increasing-subsequence
+
+[33mcommit 7bab041b10d0ac4cb47d5bf7f5ce5637cbc0c861[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Sun Dec 2 20:40:45 2018 +0800
+
+    :sparkles: Pass house-robber-ii
+
+[33mcommit f6c3a14f2a2e3689983a1e544fc5483de2417952[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Sun Dec 2 20:26:00 2018 +0800
+
+    :sparkles: Pass house-robber
+
+[33mcommit 04694990cd75472de54f89eb9bbecab464265691[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Sat Dec 1 10:58:38 2018 +0800
+
+    :sparkles: Pass house-robber
+
+[33mcommit b256e972aa2290a585054198c78332c9398a527f[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Sat Dec 1 10:41:44 2018 +0800
+
+    :hankey: War maximum-product-subarray
+
+[33mcommit 1f8628f8ed15de4d8ac1346ce35fb79687231ea9[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Thu Nov 29 15:33:52 2018 +0800
+
+    :hankey: War unique-binary-search-trees-ii
+
+[33mcommit 6cd0db295ca153419cc8c1e17bc03eb194557cd2[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Thu Nov 29 15:23:37 2018 +0800
+
+    :sparkles: Pass unique-binary-search-trees
+
+[33mcommit 884baaca6fb4ca1fee18fb7723db0d6849f20618[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Wed Nov 28 22:23:06 2018 +0800
+
+    :sparkles: Pass triangle
+
+[33mcommit 2524c79d9c4b5da6c3f552fe7ebb2ba694bf74ee[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Wed Nov 28 10:59:07 2018 +0800
+
+    :sparkles: Pass maxmimum-subarray
+
+[33mcommit d525255c540ff51f99df910916c4b28f85f5c243[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Wed Nov 28 10:13:43 2018 +0800
+
+    :sparkles: Pass minimum-path-sum
+
+[33mcommit 07bafa8f0c80d92f8210b0bed227faa553727417[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Wed Nov 28 10:01:06 2018 +0800
+
+    :sparkles: Pass unique-paths-ii
+
+[33mcommit af2708d3828d5c094070d62c517241a0a3c53ef0[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Tue Nov 27 21:01:38 2018 +0800
+
+    :sparkles: Pass unique-paths
+
+[33mcommit 472dc82331792836a7cfd600a68eb482fc1662a7[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Tue Nov 27 11:29:55 2018 +0800
+
+    :sparkles: Pass climbing-stairs
+
+[33mcommit a58a83a9745ec8a05886c83eac8c593bcec9dee6[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Tue Nov 27 11:29:35 2018 +0800
+
+    :bug: Fix bugs
+
+[33mcommit 80411d3f7f34260f3b9e93af866bbbe0736172d2[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Tue Nov 27 11:15:18 2018 +0800
+
+    :sparkles: Pass first-bad-version
+
+[33mcommit e9db1071aee5465f8107aff9d5a9644aeb80376c[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Mon Nov 26 10:43:45 2018 +0800
+
+    :sparkles: Pass maximum-depth-of-binary-tree
+
+[33mcommit 2043ddfc1a30d00fdcd83c2c9d97d9dfef3f66c4[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Sat Nov 24 10:31:03 2018 +0800
+
+    :sparkles: Pass palindrome-linked-list
+
+[33mcommit 3683af19cc5b303604f0d13a6619c622b3014560[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Fri Nov 23 10:53:49 2018 +0800
+
+    :sparkles: Pass add-two-numbers
+
+[33mcommit c6b14a2fba1627653147e75818ffe6027ccc2ec4[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Thu Nov 22 21:26:44 2018 +0800
+
+    :hammer: Archive linked list problems
+
+[33mcommit c73625bc3ecd99453b9708eb19424f77347e908c[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Thu Nov 22 21:23:22 2018 +0800
+
+    :hammer: Archive math problems
+
+[33mcommit d3f354e590f90f4c87ef2285cb59b561844f22a3[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Thu Nov 22 21:22:26 2018 +0800
+
+    :hammer: Archive string problems
+
+[33mcommit da77f08f60c06d75485defb33bda7a71afb4ee02[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Thu Nov 22 21:18:17 2018 +0800
+
+    :hammer: Archive array problems
+
+[33mcommit 8f6640e9ac4171267eb75627feebe0c7d3b27b62[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Thu Nov 22 21:13:05 2018 +0800
+
+    :hammer: Archive array problems
+
+[33mcommit 766c96d03e30d407fd060400b307f27b77420de0[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Thu Nov 22 21:07:09 2018 +0800
+
+    :hammer: Archive linked list problems
+
+[33mcommit e31431f7933749e0924f72635981a5b9c9d5f26f[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Thu Nov 22 21:02:53 2018 +0800
+
+    :hammer: Archive linked list problems
+
+[33mcommit 968a509b92ca1bb9f747f625a3d1e7fa0243a2cd[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Thu Nov 22 20:56:40 2018 +0800
+
+    :sparkles: pass swap-nodes-in-pairs
+
+[33mcommit 2afb199d25d47d283a18b80a7a51861a12d53867[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Thu Nov 22 20:36:12 2018 +0800
+
+    :sparkles: pass reverse-nodes-in-k-group
+
+[33mcommit 579e88e86100bef7af38edcb4c1bac25ab446cb1[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Thu Nov 22 19:38:43 2018 +0800
+
+    :sparkles: pass reverse-linked-list
+
+[33mcommit 2b63409d6f08e587be2c2137d62cc66a620bc3cd[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Thu Nov 22 19:05:00 2018 +0800
+
+    :sparkles: pass reverse-linked-list-ii
+
+[33mcommit 994fe0493ad838dc27c8376ab3a2a477d63c1b56[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Tue Nov 20 19:25:14 2018 +0800
+
+    :hankey: war reverse-linked-list
+
+[33mcommit 2968e283fc34272222cbfe32da12a5345361f0e4[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Mon Nov 19 11:13:18 2018 +0800
+
+    :tada: pass merge-k-sorted-lists
+
+[33mcommit dccdf2ea7ab658b1aafe46fa837e0d46e564723d[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Mon Nov 19 10:35:44 2018 +0800
+
+    :tada: pass merge-two-sorted-lists
+
+[33mcommit 2bdaabfd0ab8375b7bcf7f988d731dcc8090ed1b[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Mon Nov 19 10:13:44 2018 +0800
+
+    :tada: pass remove-duplicates-from-sorted-list-ii
+
+[33mcommit 49ee3c1100a2ffd9e27f0b5e0cbb54eb30e0ed0f[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Sun Nov 18 11:12:14 2018 +0800
+
+    :dizzy_face: remove-duplicates-from-sorted-list
+
+[33mcommit 8d08d625bee3a44d680ada0bb8019f5282841b48[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Sun Nov 18 10:38:07 2018 +0800
+
+    pass remove-duplicates-from-sorted-list
+
+[33mcommit 63e090365d2027ae6f792386e40b0a0bf42fb104[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Sun Nov 18 10:21:51 2018 +0800
+
+    pass intersection-of-two-linked-lists
+
+[33mcommit 77e5f4c562a0dee148e34e0422270d977ebbdfab[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Sun Nov 18 10:08:12 2018 +0800
+
+    pass linked-list-cycle-ii
+
+[33mcommit 0a0f2b7197d091426f1af80b0053ce52224477c9[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Sat Nov 17 15:32:02 2018 +0800
+
+    pass linked-list-cycle
+
+[33mcommit 27378d31bf609840958813d44bab785d869e9f48[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Sat Nov 17 11:30:31 2018 +0800
+
+    war linked-list-cycle
+
+[33mcommit 4efbc35760f30f26a237253dc1dde410927c3ca9[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Sat Nov 17 11:16:37 2018 +0800
+
+    pass remove-nth-node-from-end-of-list
+
+[33mcommit 9d2ac498c3a7613936a708591ae7a2c2ca4aafa7[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Sat Nov 17 10:34:03 2018 +0800
+
+    pass delete-node-in-a-linked-list
+
+[33mcommit a26364e20816467cb16f466b1214eba051415774[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Fri Nov 16 16:08:49 2018 +0800
+
+    pass search-insert-position
+
+[33mcommit 3ebf63d3fbf7106f5539a15f850b0a328c703a90[m
+Merge: 0f18f8d d07ee50
+Author: indes <wanglicsly@gmail.com>
+Date:   Fri Nov 16 10:31:43 2018 +0800
+
+    Merge branch 'master' of github.com:indes/leetcode
+
+[33mcommit 0f18f8dd60db23cf0e9a8ae6c53cec203edb752e[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Fri Nov 16 10:16:35 2018 +0800
+
+    pass search-a-2d-matrix
+
+[33mcommit d07ee50c193d1b0f6868b9e493d0ab7a6a8e24c0[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Fri Nov 16 09:39:44 2018 +0800
+
+    Update README.md
+
+[33mcommit ae41cd737fe29abae5dc11d981714cb37b229d51[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Thu Nov 15 22:28:20 2018 +0800
+
+    war search-a-2d-matrix
+
+[33mcommit 5261713d9511f4eea7505c5da31a9a4b3c761046[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Thu Nov 15 22:18:23 2018 +0800
+
+    pass search-a-2d-matrix-ii
+
+[33mcommit bd22e2852fa6cf01e22e8dfbc827e207d36a4ce2[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Thu Nov 15 21:49:47 2018 +0800
+
+    pass palindrome-number
+
+[33mcommit 4511391f328b1c7394c8e8082eadd2681c698f18[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Thu Nov 15 21:33:54 2018 +0800
+
+    pass largest-rectangle-in-histogram
+
+[33mcommit 8c5cc61ec50d3be22d394e65e8e2f1d6f0eb9e5a[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Tue Nov 13 18:50:33 2018 +0800
+
+    pass find-minimum-in-rotated-sorted-array-ii
+
+[33mcommit 4e38d0d1626e6d92c7433f07d4f22826d3b23e6d[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Tue Nov 13 18:49:34 2018 +0800
+
+    pass find-minimum-in-rotated-sorted-array-ii
+
+[33mcommit dfc8cf6fd8251d34e84a34904390385be532887d[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Tue Nov 13 18:43:21 2018 +0800
+
+    pass find-minimum-in-rotated-sorted-array
+
+[33mcommit d181568470de237b721365ec5ae9d75a0770d592[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Tue Nov 13 17:59:13 2018 +0800
+
+    pass search-in-rotated-sorted-array
+
+[33mcommit a7f76d7bd368619ecf8a486abb52693d229a0cbc[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Fri Nov 9 22:07:13 2018 +0800
+
+    war 4sum
+
+[33mcommit 083cefe58fe088a33eaca3d4ae946d755e71e551[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Fri Nov 9 21:29:41 2018 +0800
+
+    pass 3sum-closest
+
+[33mcommit 99255524c3c75b60f93da6dedfeadf407f783ed9[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Fri Nov 9 20:18:29 2018 +0800
+
+    pass 3Sum
+
+[33mcommit c47816a1d9783945e5df44cb0418e35dd277d808[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Wed Nov 7 16:53:20 2018 +0800
+
+    optimize twoSum
+
+[33mcommit 11c021c820b5ad2d210cc3844af06e1529678ec2[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Tue Nov 6 20:50:31 2018 +0800
+
+    pass merge_sorted_array
+
+[33mcommit 9c9af2229fb5a50c9cb9a66c6f0a0e0316753d41[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Tue Nov 6 16:52:02 2018 +0800
+
+    pass pascals_triangle2 with O(k)
+
+[33mcommit 893bddbbf0b314fd7e99ca3b13b347abb28e6a29[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Tue Nov 6 16:12:50 2018 +0800
+
+    pass pascals_triangle
+
+[33mcommit db3b09011c7c3c6c9dd1b0de625ec7cefa512a7a[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Sat Nov 3 22:00:14 2018 +0800
+
+    pass RemoveElement
+
+[33mcommit ae44c0f61dd356c93c020bfa9c9fa7f9e364267c[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Sat Nov 3 21:36:05 2018 +0800
+
+    update README.md
+
+[33mcommit cca89488cf35666384522d57fd3354b637baca2f[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Sat Nov 3 21:34:49 2018 +0800
+
+    add README.md
+
+[33mcommit 0fdc500e9f16f73490ab34c9af4e9f3bec343e71[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Thu Nov 1 14:51:41 2018 +0800
+
+    pass 旋转图像
+
+[33mcommit 557220fdc6b732687c079b5705a3781e61216c80[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Thu Nov 1 10:53:47 2018 +0800
+
+    war 有效的数独
+
+[33mcommit f3abd7129f7346936e92048aa18660160e6123e6[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Tue Oct 30 22:13:32 2018 +0800
+
+    pass 两个数组的交集 II
+
+[33mcommit 8bb3c4213411ed14619874c4f0d7291c97256fc2[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Tue Sep 25 22:04:36 2018 +0800
+
+    pass FirstUniqChar
+
+[33mcommit 66db97ecbc49cf8e213379261c7efebb496a959b[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Mon Sep 24 21:50:51 2018 +0800
+
+    pass ReverseString
+
+[33mcommit 645af90c852d5e60bdfb30fb3aac6a8c0ab6f60f[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Fri Sep 21 21:55:31 2018 +0800
+
+    pass MaxProfit
+
+[33mcommit c5b2ad789c0f10fe4a9e9d634d26ff7f0266caea[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Fri Sep 21 11:16:24 2018 +0800
+
+    pass PlusOne
+
+[33mcommit e38cc12ff02afb732715ab0a081a824cdd00ff61[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Tue Sep 18 21:31:39 2018 +0800
+
+    pass MoveZeroes
+
+[33mcommit b8970a656d75e9cc939e51e1ef0e7f46e3ca2b71[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Tue Sep 18 16:06:25 2018 +0800
+
+    pass twoSum
+
+[33mcommit b41833d8fc847503d9e8d2b6aec33bdf09b1b69a[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Tue Sep 18 15:49:58 2018 +0800
+
+    pass ContainsDuplicate
+
+[33mcommit 45356c1e56f84c40a36f7c44dfe95324cedcf849[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Tue Sep 18 15:34:58 2018 +0800
+
+    add rotate
+
+[33mcommit 397267912b717b993bf33a9aca77a6e21ba1be89[m
+Author: indes <wanglicsly@gmail.com>
+Date:   Tue Sep 18 15:16:42 2018 +0800
+
+    init

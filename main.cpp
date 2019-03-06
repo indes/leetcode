@@ -1,18 +1,13 @@
 
-#include "sorting-and-searching/merge_sort/MergeSort.h"
+#include "array/majority-element/MajorityElement.h"
 
 using namespace std;
 
-#include <iostream>
-
 int main() {
-
-    MergeSort h;
-    vector<int> v1{3, 1, 5, 6, 4, 7, 8, 2, 9};
-    h.sort(v1);
-    for (auto i:v1) {
-        std::cout << i << " ";
-    }
+    Solution s;
+    vector<int> v{2, 3, 3, 2, 3};
+    auto k = s.majorityElement(v);
+    return 0;
 }
 
 

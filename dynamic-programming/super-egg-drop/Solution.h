@@ -7,8 +7,10 @@
 
 #include <algorithm>
 #include <numeric>
+#include <vector>
 class Solution {
 public:
+    int superEggDrop_old(int K, int N);
     int superEggDrop(int K, int N);
 };
 

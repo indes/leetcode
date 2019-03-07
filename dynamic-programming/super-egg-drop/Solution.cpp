@@ -4,7 +4,7 @@
 
 #include "Solution.h"
 
-int Solution::superEggDrop(int K, int N) {
+int Solution::superEggDrop_old(int K, int N) {
 //    if (K == 0 or N == 0) return 0;
 //    if (K == 1) return N;
     int v[K + 1][N + 1];
@@ -30,4 +30,17 @@ int Solution::superEggDrop(int K, int N) {
         }
     }
     return v[K][N];
+}
+
+int Solution::superEggDrop(int K, int N) {
+    //f(x,k) = f(x-1,k-1)+f(x-1,k)+1
+    int move = 0;
+    std::vector<int> v(K + 1, 0);
+    while (v[K] < N) {
+        for (int i = K; i > 0; --i) {
+            v[i] += v[i - 1] + 1;
+        }
+        move++;
+    }
+    return move;
 }

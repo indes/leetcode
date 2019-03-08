@@ -1,12 +1,12 @@
 
-#include "array/set-matrix-zeroes/Solution.h"
+#include "string/group-anagrams/Solution.h"
 
 using namespace std;
 
 int main() {
     Solution s;
-    vector<vector<int>> v = {{1}};
-    s.setZeroes(v);
+    vector<string> str = {"eat", "tea", "tan", "ate", "nat", "bat"};
+    s.groupAnagrams(str);
     return 0;
 }
 

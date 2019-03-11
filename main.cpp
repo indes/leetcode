@@ -1,14 +1,13 @@
 
-#include "backtracking/letter-combinations-of-a-phone-number/Solution.h"
+#include "backtracking/subsets/Solution.h"
 
 using namespace std;
 
 int main() {
     Solution s;
-    vector<int> v = {2, 5, 2, 1, 2};
-    string str("29");
-    auto k = str.size();
-    auto v2 = s.letterCombinations("24");
+    vector<int> v = {1, 2, 3};
+
+    auto v2 = s.subsets(v);
     return 0;
 }
 

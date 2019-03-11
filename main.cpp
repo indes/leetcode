@@ -1,13 +1,13 @@
 
-#include "backtracking/permutations/Solution.h"
+#include "backtracking/permutations-ii/Solution.h"
 
 using namespace std;
 
 int main() {
     Solution s;
-    vector<int> v = {1, 2, 3};
+    vector<int> v = {3,3,0,3};
 
-    auto v2 = s.permute(v);
+    auto v2 = s.permuteUnique(v);
     return 0;
 }
 

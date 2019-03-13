@@ -1,13 +1,13 @@
 
-#include "math/happy-number/Solution.h"
+#include "dynamic-programming/word-break/Solution.h"
 
 using namespace std;
 
 int main() {
     Solution s;
 //    vector<int> v = {0};
-
-    auto res = s.isHappy(19);
+    vector<string> dic = {"leet", "code"};
+    auto res = s.wordBreak("leetcode", dic);
 //    cout << v2 << endl;
     return 0;
 }

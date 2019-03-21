@@ -7,12 +7,12 @@
 int Solution::search(vector<int> &nums, int target) {
     if (nums.empty()) return -1;
 
-    if (target >= nums[0]) {
-        for (int i = 0; i < nums.size() && (nums[i] > nums[i - 1] or i == 0); ++i) {
+    if (target >= nums.front()) {
+        for (int i = 0; i < nums.size() && (i == 0 or nums[i] > nums[i - 1]); ++i) {
             if (nums[i] == target) return i;
         }
-    } else if (target <= nums[nums.size() - 1]) {
-        for (int i = nums.size() - 1; i >= 0 && (nums[i] < nums[i + 1] or i == nums.size() - 1); --i) {
+    } else if (target <= nums.back()) {
+        for (int i = nums.size() - 1; i >= 0 && ( i == nums.size() - 1 or nums[i] < nums[i + 1]); --i) {
             if (nums[i] == target) return i;
         }
     }

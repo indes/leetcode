@@ -7,7 +7,9 @@
 
 #include <vector>
 
+
 using std::vector;
+
 
 class Solution {
 public:
@@ -15,6 +17,7 @@ public:
         this->k = k;
         this->n = n;
         vector<int> v1;
+
         combine_dfs(v1, 1);
         return this->ans;
     }
@@ -24,19 +27,26 @@ private:
     int k;
     int n;
 
-    void combine_dfs(vector<int> &curr, int depth) {
-        if (curr.size() == this->k) {
+    void combine_dfs(vector<int> &curr, int level) {
+        if (curr.size() == k) {
             ans.push_back(curr);
             return;
         }
         if (curr.size() > k) return;
-
-
-        for (int i = depth; i < n; ++i) {
-            curr.push_back(i);
-            combine_dfs(curr, depth + 1);
-            curr.pop_back();
+        if (level == 1) {
+            for (int i = 1; i <= n; ++i) {
+                curr.push_back(i);
+                combine_dfs(curr, level + 1);
+                curr.pop_back();
+            }
+        } else {
+            for (int i = curr[level - 2] + 1; i <= n; ++i) {
+                curr.push_back(i);
+                combine_dfs(curr, level + 1);
+                curr.pop_back();
+            }
         }
+
 
     };
 };

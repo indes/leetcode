@@ -1,14 +1,18 @@
 
-#include "array/11-container-with-most-water/solution.h"
+#include "stack-and-queue/155-min-stack/MinStack.h"
 
 using namespace std;
 
 int main() {
-    Solution s;
-    vector<int> v({2, 3, 4, 5, 18, 17, 6});
+    MinStack obj;
+    obj.push(-2);
+    obj.push(0);
+    obj.push(-3);
+    auto min_i = obj.getMin();
+    obj.pop();
+    auto m2 = obj.top();
 
-    auto res = s.maxArea(v);
-
+    min_i = obj.getMin();
     return 0;
 }
 

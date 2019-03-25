@@ -1,13 +1,12 @@
 
-#include "linked-list/61-rotate-list/Solution.h"
+#include "string/14-longest-common-prefix/Solution.h"
 
 using namespace std;
 
 int main() {
     Solution s;
-//    auto ans = s.isValid("{}{}(])");
-    ListNode n1(1), n2(2, &n1), n3(3, &n2), n4(4, &n3);
-    auto r = s.rotateRight(&n4, 9);
+    vector<string> strs = {"flower","flow","flight","f"};
+    auto r = s.longestCommonPrefix(strs);
     return 0;
 }
 

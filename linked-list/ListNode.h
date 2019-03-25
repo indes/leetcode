@@ -4,9 +4,14 @@
 
 #ifndef LEETCODE_LISTNODE_H
 #define LEETCODE_LISTNODE_H
+
 struct ListNode {
     int val;
     ListNode *next;
+
+    ListNode(int val, ListNode *next) : val(val), next(next) {};
+
+    ListNode(int val) : val(val), next(nullptr) {}
 };
 
 #endif //LEETCODE_LISTNODE_H

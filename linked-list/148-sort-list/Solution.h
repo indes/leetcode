@@ -9,7 +9,10 @@
 
 class Solution {
 public:
-    ListNode* sortList(ListNode* head);
+    ListNode *sortList(ListNode *head);
+
+private:
+    ListNode *mergeList(ListNode *, ListNode *);
 };
 
 

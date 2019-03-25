@@ -11,7 +11,11 @@ struct TreeNode {
     TreeNode *left;
     TreeNode *right;
 
-//    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+    TreeNode() {}
+
+    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+
+    TreeNode(int val, TreeNode *left, TreeNode *right) : val(val), left(left), right(right) {}
 };
 
 #endif //LEETCODE_TREENODE_H

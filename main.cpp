@@ -1,14 +1,13 @@
 
-#include "tree/235-lowest-common-ancestor-of-a-binary-search-tree/Solution.h"
+#include "array/11-container-with-most-water/solution.h"
 
 using namespace std;
 
 int main() {
     Solution s;
-    TreeNode n0(0), n4(4), n7(7), n9(8);
-    TreeNode n2(2, &n0, &n4), n8(8, &n7, &n9), n6(6, &n2, &n8);
+    vector<int> v({2, 3, 4, 5, 18, 17, 6});
 
-    auto res = s.lowestCommonAncestor(&n6, &n0, &n4);
+    auto res = s.maxArea(v);
 
     return 0;
 }

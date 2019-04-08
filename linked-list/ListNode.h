@@ -11,7 +11,7 @@ struct ListNode {
 
     ListNode(int val, ListNode *next) : val(val), next(next) {};
 
-    ListNode(int val) : val(val), next(nullptr) {}
+    explicit ListNode(int val) : val(val), next(nullptr) {}
 };
 
 #endif //LEETCODE_LISTNODE_H

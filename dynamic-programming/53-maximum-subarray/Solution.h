@@ -14,6 +14,9 @@ using namespace std;
 class Solution {
 public:
     int maxSubArray(vector<int> &nums);
+
+private:
+    int maxSubArray(vector<int> &nums, int s, int e);
 };
 
 

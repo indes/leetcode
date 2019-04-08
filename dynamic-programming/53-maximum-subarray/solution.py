@@ -7,9 +7,9 @@ class Solution:
         sum = 0
         for num in nums:
             sum += num
-
             ans = max(sum, ans)
             if sum < 0: sum = 0
+
         return ans
 
 if __name__ == "__main__":

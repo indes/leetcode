@@ -1,12 +1,12 @@
 
-#include "dynamic-programming/152-maximum-product-subarray/Solution.h"
+#include "dynamic-programming/375-guess-number-higher-or-lower-ii/Solution.h"
 
 
 using namespace std;
 
 int main() {
     Solution s;
-    auto res = s.maxProduct({2, 3, -2, 4, 6});
+    auto res = s.getMoneyAmount(4);
     return 0;
 }
 

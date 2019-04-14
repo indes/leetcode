@@ -1,12 +1,12 @@
 
-#include "dynamic-programming/375-guess-number-higher-or-lower-ii/Solution.h"
+#include "dynamic-programming/877-stone-game/Solution.h"
 
 
 using namespace std;
 
 int main() {
     Solution s;
-    auto res = s.getMoneyAmount(4);
+    auto res = s.stoneGame({5,3,4,5});
     return 0;
 }
 

@@ -1,12 +1,15 @@
 
-#include "dynamic-programming/279-perfect-squares/Solution.h"
+#include "sorting-and-searching/994-rotting-oranges/Solution.h"
 
 
 using namespace std;
 
 int main() {
     Solution s;
-    auto res = s.numSquares(12);
+    vector<vector<int>> v({{2, 1, 1},
+                           {0, 1, 1},
+                           {1, 0, 1}});
+    auto res = s.orangesRotting(v);
     return 0;
 }
 

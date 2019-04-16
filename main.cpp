@@ -1,5 +1,5 @@
 
-#include "dynamic-programming/188-best-time-to-buy-and-sell-stock-iv/Solution.h"
+#include "dynamic-programming/72-edit-distance/Solution.h"
 
 #include <iostream>
 
@@ -7,8 +7,8 @@ using namespace std;
 
 int main() {
     Solution s;
-    vector<int> v({3, 3, 5, 0, 0, 3, 1, 4});
-    auto res = s.maxProfit(2, v);
+    string s1 = "horse", s2 = "ros";
+    auto res = s.minDistance(s1, s2);
     cout << res << endl;
     return 0;
 }

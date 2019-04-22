@@ -12,11 +12,15 @@ void Solution_1::connect(TreeLinkNode *root) {
             if (!next) next = root->left ? root->left : root->right;
 
             if (root->left) {
-                if (prev) prev->next = root->left;
+                if (prev) {
+                    prev->next = root->left;
+                }
                 prev = root->left;
             }
             if (root->right) {
-                if (prev) prev->next = root->right;
+                if (prev) {
+                    prev->next = root->right;
+                }
                 prev = root->right;
             }
         }

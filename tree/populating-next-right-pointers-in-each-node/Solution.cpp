@@ -11,14 +11,18 @@ void Solution::connect(TreeLinkNode *root) {
     TreeLinkNode *first = root;
 
     while (first) {
-        if (first->left) first->left->next = first->right;
+        if (first->left) {
+            first->left->next = first->right;
+        }
         TreeLinkNode *second = first, *third = second->next;
 
         while (third) {
             if (third->left) {
                 third->left->next = third->right;
             }
-            if (second->right)second->right->next = third->left;
+            if (second->right) {
+                second->right->next = third->left;
+            }
             second = second->next;
             third = second->next;
         }

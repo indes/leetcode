@@ -1,5 +1,5 @@
 
-#include "bit-manipulation/137-single-number-ii/Solution.h"
+#include "graph/207-course-schedule/Solution.h"
 
 #include <iostream>
 
@@ -8,8 +8,10 @@ using namespace std;
 int main() {
     Solution s;
 
-
-    auto res = s.singleNumber({1, 2, 3, 1, 2, 3, 1, 2, 3, 4});
+    vector<pair<int, int>> prerequisites = {{0, 2},
+                                            {1, 2},
+                                            {2, 0}};
+    auto res = s.canFinish(3, prerequisites);
 //    cout << res << endl;
     return 0;
 }

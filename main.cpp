@@ -1,5 +1,5 @@
 
-#include "backtracking/93-restore-ip-addresses/Solution.h"
+#include "math/263-ugly-number/Solution.h"
 
 
 #include <iostream>
@@ -9,7 +9,7 @@ using namespace std;
 int main() {
     Solution s;
 
-    auto res = s.restoreIpAddresses("010010");
+    auto res = s.isUgly(6);
 
     return 0;
 }

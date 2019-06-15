@@ -1,5 +1,5 @@
 
-#include "dynamic-programming/53-maximum-subarray/Solution.h"
+#include "dynamic-programming/lint92-backpack/Solution.hpp"
 
 
 #include <iostream>
@@ -8,8 +8,8 @@ using namespace std;
 
 int main() {
     Solution s;
-    vector<int> v = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
-    auto res = s.maxSubArray(v);
+    vector<int> v = {2,3,5,7};
+    auto res = s.backPack(12, v);
 
     return 0;
 }

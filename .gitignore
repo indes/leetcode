@@ -442,7 +442,4 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 
-main.go
-main.cpp
-
 # End of https://www.gitignore.io/api/cmake,clion

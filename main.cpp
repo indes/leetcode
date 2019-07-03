@@ -1,5 +1,5 @@
 
-#include "Solution"
+#include "./leetcode/26-remove-duplicates-from-sorted-array/Solution.h"
 
 
 #include <iostream>
@@ -7,9 +7,9 @@
 using namespace std;
 
 int main() {
-    editDistance e;
-
-    auto res = e.minDistance("pneumonoultramicroscopicsilicovolcanoconiosis", "ultramicroscopically");
+    Solution s;
+    vector<int> v{1, 1};
+    auto res = s.removeDuplicates(v);
 
     return 0;
 }

@@ -10,9 +10,9 @@
 
 using std::vector;
 
-class ThreeSum {
+class Solution {
 public:
-    vector<vector<int>> treeSum(vector<int> &nums) {
+    vector<vector<int>> threeSum(vector<int> &nums) {
         vector<vector<int>> rtn;
         if (nums.size() < 3) return rtn;
         sort(nums.begin(), nums.end());
@@ -46,7 +46,6 @@ public:
                 ++iter;
             }
         }
-
         return rtn;
     }
 };

@@ -1,5 +1,5 @@
 
-#include "dynamic-programming/lint92-backpack/Solution.hpp"
+#include "119EditDistance.h"
 
 
 #include <iostream>
@@ -7,9 +7,9 @@
 using namespace std;
 
 int main() {
-    Solution s;
-    vector<int> v = {2,3,5,7};
-    auto res = s.backPack(12, v);
+    editDistance e;
+
+    auto res = e.minDistance("pneumonoultramicroscopicsilicovolcanoconiosis", "ultramicroscopically");
 
     return 0;
 }

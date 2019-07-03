@@ -42,7 +42,6 @@ public:
                 } else {
                     return sum;
                 }
-
             }
         }
         return rtn;

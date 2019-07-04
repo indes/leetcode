@@ -10,7 +10,7 @@
 
 using std::string;
 
-class ReverseString {
+class Solution {
 public:
     string reverseString(string s) {
         char temp;

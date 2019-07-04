@@ -1,5 +1,5 @@
 
-#include "./leetcode/557-reverse-words-in-a-string-iii/Solution.h"
+#include "./leetcode/238-product-of-array-except-self/Solution.h"
 
 
 #include <iostream>
@@ -8,8 +8,8 @@ using namespace std;
 
 int main() {
     Solution s;
-    string str = "Let's take LeetCode contest";
-    auto res = s.reverseWords(str);
+    vector<int> v{1, 2, 3, 4};
+    auto res = s.productExceptSelf(v);
 
     return 0;
 }

@@ -1,5 +1,5 @@
 
-#include "./leetcode/26-remove-duplicates-from-sorted-array/Solution.h"
+#include "./leetcode/557-reverse-words-in-a-string-iii/Solution.h"
 
 
 #include <iostream>
@@ -8,8 +8,8 @@ using namespace std;
 
 int main() {
     Solution s;
-    vector<int> v{1, 1};
-    auto res = s.removeDuplicates(v);
+    string str = "Let's take LeetCode contest";
+    auto res = s.reverseWords(str);
 
     return 0;
 }

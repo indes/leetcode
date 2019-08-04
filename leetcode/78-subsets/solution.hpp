@@ -34,9 +34,6 @@ private:
             ans.push_back(curr);
             return;
         }
-        if (level > length) {
-            return;
-        }
 
         for (int i = level; i < nums->size(); ++i) {
             int ith_int = (*nums)[i];
@@ -44,7 +41,6 @@ private:
             subsets_dfs(curr, i + 1, length);
             curr.pop_back();
         }
-
     }
 };
 

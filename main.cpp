@@ -1,5 +1,5 @@
 
-#include "./leetcode/78-subsets/solution.hpp"
+#include "./leetcode/46-permutations/Solution.h"
 
 #include <iostream>
 
@@ -9,7 +9,7 @@ int main() {
     Solution s;
 
     vector<int> v = {1, 2, 3};
-    auto p = s.subsets(v);
+    auto p = s.permute_stl(v);
 
     return 0;
 }

@@ -23,6 +23,16 @@ public:
         return ans;
     };
 
+    vector<vector<int>> permute_stl(vector<int> &nums) {
+        // 使用stl中的next_permutation实现
+        vector<vector<int>> rtn;
+        sort(nums.begin(), nums.end());
+        do {
+            rtn.push_back(nums);
+        } while (next_permutation(nums.begin(), nums.end()));
+        return rtn;
+    };
+
 private:
     vector<vector<int>> ans;
     vector<int> *nums;

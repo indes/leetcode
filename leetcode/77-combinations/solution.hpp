@@ -6,10 +6,7 @@
 #define LEETCODE_SOLUTION_H
 
 #include <vector>
-
-
 using std::vector;
-
 
 class Solution {
 public:
@@ -17,7 +14,6 @@ public:
         this->k = k;
         this->n = n;
         vector<int> v1;
-
         combine_dfs(v1, 1);
         return this->ans;
     }
@@ -46,8 +42,6 @@ private:
                 curr.pop_back();
             }
         }
-
-
     };
 };
 

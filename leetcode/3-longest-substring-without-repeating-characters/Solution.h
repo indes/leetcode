@@ -25,7 +25,6 @@ public:
                 } else {
                     len++;
                 }
-//                len = min(i - m[s[i]], len);
             } else {
                 len++;
             }

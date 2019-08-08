@@ -5,17 +5,17 @@
 #include "Solution.h"
 
 int Solution::maxSubArray(vector<int> &nums) {
-//    if (nums.empty()) return -1;
-//    int ans = INT_MIN;
-//    int sum = 0;
-//    for (auto num:nums) {
-//        sum += num;
-//        ans = max(ans, sum);
-//        if (sum < 0) {
-//            sum = 0;
-//        }
-//    }
-//    return ans;
+    if (nums.empty()) return -1;
+    int ans = INT_MIN;
+    int sum = 0;
+    for (auto num:nums) {
+        sum += num;
+        ans = max(ans, sum);
+        if (sum < 0) {
+            sum = 0;
+        }
+    }
+    return ans;
 
     return maxSubArray(nums, 0, nums.size() - 1);
 }

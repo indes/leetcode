@@ -28,7 +28,6 @@ public:
         return v[s.size() - 1];
     }
 
-
 private:
     vector<string> *dict;
 

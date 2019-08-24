@@ -11,7 +11,7 @@
 
 using namespace std;
 
-class Solution {
+class solution {
 public:
     bool wordBreak(string s, vector<string> &wordDict) {
         dict = &wordDict;

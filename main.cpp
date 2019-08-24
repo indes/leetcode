@@ -6,7 +6,7 @@
 using namespace std;
 
 int main() {
-    Solution s;
+    solution s;
 
     auto str = "applepenapple";
     vector<string> wordDict = {"apple", "pen"};

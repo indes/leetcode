@@ -19,7 +19,6 @@ public:
         if (s.size() == 1)
             return 1;
 
-
         vector<int> v(s.size() + 1, 0);
         v[0] = 1;
         v[1] = s[0] == '0' ? 0 : 1;

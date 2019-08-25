@@ -6,18 +6,19 @@
 #define LEETCODE_SOLUTION_H
 
 #include <algorithm>
+#include <vector>
 
 using namespace std;
 
 class Solution {
 public:
     int nthUglyNumber(int n) {
-        int *list = new int[n];
+        vector<int> list(n, 0);
         list[0] = 1;
         int next = 1;
-        int *i2 = list;
-        int *i3 = list;
-        int *i5 = list;
+        auto i2 = list.begin();
+        auto i3 = list.begin();
+        auto i5 = list.begin();
         while (next < n) {
             list[next] = min(min(*i2 * 2, *i3 * 3), *i5 * 5);
 
@@ -32,7 +33,7 @@ public:
             }
             next++;
         }
-        return list[n - 1];
+        return list.back();
     }
 };
 

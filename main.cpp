@@ -1,5 +1,5 @@
 
-#include "leetcode/300-longest-increasing-subsequence/Solution.h"
+#include "leetcode/128-longest-consecutive-sequence/solution.hpp"
 
 #include <iostream>
 
@@ -9,7 +9,7 @@ int main() {
     Solution s;
 
 
-    auto p = s.lengthOfLIS({10, 9, 2, 5, 3, 7, 101, 18});
+    auto p = s.longestConsecutive({100, 4, 200, 1, 3, 2});
 
     return 0;
 }

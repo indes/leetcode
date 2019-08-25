@@ -13,7 +13,7 @@ using std::vector;
 
 class Solution {
 public:
-    int lengthOfLIS(vector<int> &nums) {
+    int lengthOfLIS(const vector<int> &nums) {
         // O(n^2)
 
         if (nums.empty()) {
@@ -26,10 +26,9 @@ public:
                 if (nums[i] > nums[j]) {
                     v[i] = max(v[i], v[j] + 1);
                 }
-
             }
-            max_length = max(max_length, v[i]);
 
+            max_length = max(max_length, v[i]);
         }
         return max_length;
     }

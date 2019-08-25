@@ -19,9 +19,12 @@ public:
         for (int i = 3; i <= n; ++i) {
             int max_ = INT_MIN;
             for (int j = 1; j <= i / 2; ++j) {
-                int local_max = dp[j] * dp[i - j];
+
+                int local_max = dp[j] * dp[i - j]; // a, b 都拆开
+                // 拆一个
                 local_max = std::max(local_max, dp[j] * (i - j));
                 local_max = std::max(local_max, j * (dp[i - j]));
+                // 都不拆
                 local_max = std::max(local_max, j * (i - j));
 
                 max_ = max_ > local_max ? max_ : local_max;

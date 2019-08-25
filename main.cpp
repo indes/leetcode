@@ -1,17 +1,15 @@
 
-#include "leetcode/139-word-break/solution.hpp"
+#include "leetcode/152-maximum-product-subarray/Solution.h"
 
 #include <iostream>
 
 using namespace std;
 
 int main() {
-    solution s;
+    Solution s;
 
-    auto str = "applepenapple";
-    vector<string> wordDict = {"apple", "pen"};
-    //vector<int> v = {7, 1, 5, 3, 6, 4};
-    auto p = s.wordBreak(str, wordDict);
+    vector<int> v = {2, 3, -2, 4};
+    auto p = s.maxProduct(v);
 
     return 0;
 }

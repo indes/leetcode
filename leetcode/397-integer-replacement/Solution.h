@@ -24,5 +24,4 @@ public:
     }
 };
 
-
 #endif //LEETCODE_SOLUTION_H

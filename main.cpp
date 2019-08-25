@@ -7,7 +7,7 @@ using namespace std;
 
 int main() {
     Solution s;
-    
+
     auto p = s.nthUglyNumber(10);
 
     return 0;

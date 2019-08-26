@@ -1,5 +1,5 @@
 
-#include "leetcode/128-longest-consecutive-sequence/solution.hpp"
+#include "leetcode/421-maximum-xor-of-two-numbers-in-an-array/solution.hpp"
 
 #include <iostream>
 
@@ -9,7 +9,7 @@ int main() {
     Solution s;
 
 
-    auto p = s.longestConsecutive({100, 4, 200, 1, 3, 2});
+    auto p = s.findMaximumXOR({3, 10, 5, 25, 2, 8});
 
     return 0;
 }

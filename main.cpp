@@ -1,5 +1,5 @@
 
-#include "leetcode/421-maximum-xor-of-two-numbers-in-an-array/solution.hpp"
+#include "leetcode/692-top-k-frequent-words/solution.hpp"
 
 #include <iostream>
 
@@ -8,8 +8,7 @@ using namespace std;
 int main() {
     Solution s;
 
-
-    auto p = s.findMaximumXOR({3, 10, 5, 25, 2, 8});
+    auto p = s.topKFrequent({"i", "love", "leetcode", "i", "love", "coding"}, 2);
 
     return 0;
 }

@@ -1,5 +1,5 @@
 
-#include "leetcode/692-top-k-frequent-words/solution.hpp"
+#include "leetcode/200-number-of-islands/solution.hpp"
 
 #include <iostream>
 
@@ -8,7 +8,11 @@ using namespace std;
 int main() {
     Solution s;
 
-    auto p = s.topKFrequent({"i", "love", "leetcode", "i", "love", "coding"}, 2);
+    vector<vector<char>> v{{'1', '1', '1', '1', '0'},
+                           {'1', '1', '0', '1', '0'},
+                           {'1', '1', '0', '0', '0'},
+                           {'0', '0', '0', '0', '0'}};
+    auto p = s.numIslands(v);
 
     return 0;
 }

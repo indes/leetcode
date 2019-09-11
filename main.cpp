@@ -1,18 +1,15 @@
 
-#include "leetcode/200-number-of-islands/solution.hpp"
+#include "sorting-and-searching/quick_sort/QuickSort.h"
 
 #include <iostream>
 
 using namespace std;
 
 int main() {
-    Solution s;
+    QuickSort qs;
 
-    vector<vector<char>> v{{'1', '1', '1', '1', '0'},
-                           {'1', '1', '0', '1', '0'},
-                           {'1', '1', '0', '0', '0'},
-                           {'0', '0', '0', '0', '0'}};
-    auto p = s.numIslands(v);
+    vector<int> v{2,3,4,5,1,3,4};
 
+    qs(v);
     return 0;
 }

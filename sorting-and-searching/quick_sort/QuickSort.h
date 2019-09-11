@@ -18,6 +18,11 @@ public:
         qsort(v, 0, v.size() - 1);
     }
 
+    template<class T>
+    void operator()(vector<T> &v) {
+        qsort(v, 0, v.size() - 1);
+    }
+
 private:
     template<class T>
     void qsort(vector<T> &v, int left, int right) {
@@ -39,7 +44,7 @@ private:
             pivot = start;
         }
 
-        qsort(v, left, pivot);
+        qsort(v, left, pivot - 1);
         qsort(v, pivot + 1, right);
     }
 };

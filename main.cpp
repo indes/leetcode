@@ -1,15 +1,15 @@
 
-#include "sorting-and-searching/quick_sort/QuickSort.h"
+#include "leetcode/91-decode-ways/Solution.h"
 
 #include <iostream>
 
 using namespace std;
 
 int main() {
-    QuickSort qs;
+    Solution s;
 
     vector<int> v{2,3,4,5,1,3,4};
 
-    qs(v);
+    auto res = s.numDecodings("123");
     return 0;
 }

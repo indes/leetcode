@@ -15,7 +15,6 @@ public:
     int numDecodings(string s) {
         if (s.empty() or (s.size() == 1 and s[0] == '0'))
             return 0;
-
         if (s.size() == 1)
             return 1;
 

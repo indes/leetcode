@@ -8,12 +8,16 @@
 #include <vector>
 #include <queue>
 #include "../TreeNode.h"
+#include <deque>
 
 using namespace std;
 
 class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode *root);
+
+    vector<vector<int>> levelOrder2(TreeNode *root); // 不使用额外位记录层级
+
 };
 
 

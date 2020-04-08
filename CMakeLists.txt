@@ -6,4 +6,4 @@ set(CMAKE_CXX_STANDARD 11)
 include_directories(./lintcode)
 
 
-add_executable(leetcode main.cpp linked-list/odd-even-linked-list/Solution.cpp)
+add_executable(leetcode main.cpp linked-list/odd-even-linked-list/Solution.cpp tree/binary-tree-level-order-traversal/Solution.cpp)

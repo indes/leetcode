@@ -12,11 +12,14 @@
 
 class Solution {
 public:
+    ListNode *oddEvenListOld(ListNode *head);
+
     ListNode *oddEvenList(ListNode *head);
 
 private:
     void swapNodes(ListNode *node1, ListNode *node2);
-};
 
+    void insertNextNodes(ListNode *n1, ListNode *n2);
+};
 
 #endif //LEETCODE_SOLUTION_H

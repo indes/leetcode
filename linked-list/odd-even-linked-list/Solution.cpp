@@ -4,7 +4,7 @@
 
 #include "Solution.h"
 
-ListNode *Solution::oddEvenList(ListNode *head) {
+ListNode *Solution::oddEvenListOld(ListNode *head) {
     if (head == nullptr or head->next == nullptr or head->next->next == nullptr) return head;
 
     ListNode *odd_node = head;
@@ -31,6 +31,26 @@ ListNode *Solution::oddEvenList(ListNode *head) {
     return head;
 }
 
+
+ListNode *Solution::oddEvenList(ListNode *head) {
+
+    if (
+            head == nullptr
+            or head->next == nullptr
+            or head->next->next == nullptr
+            )
+        return head;
+    ListNode *n1 = head;
+    ListNode *n2 = head->next;
+    while (n2 != nullptr && n2->next != nullptr) {
+        insertNextNodes(n1, n2);
+        n1 = n1->next;
+        n2 = n2->next;
+    }
+
+    return head;
+}
+
 void Solution::swapNodes(ListNode *node1, ListNode *node2) {
     ListNode *p = node1->next->next;
     node1->next->next = node2->next->next;
@@ -38,4 +58,13 @@ void Solution::swapNodes(ListNode *node1, ListNode *node2) {
     p = node1->next;
     node1->next = node2->next;
     node2->next = p;
+}
+
+
+void Solution::insertNextNodes(ListNode *n1, ListNode *n2) {
+    ListNode *insertNode = n2->next;
+    n2->next = n2->next->next;
+    insertNode->next = n1->next;
+    n1->next = insertNode;
+
 }
